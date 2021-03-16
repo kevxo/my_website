@@ -9,7 +9,6 @@ class Card extends React.Component {
         <ReactBootStrap.Card.Body>
           <ReactBootStrap.Card.Title>About Me</ReactBootStrap.Card.Title>
           <ReactBootStrap.Card.Text>
-            With supporting text below as a natural lead-in to additional content.
           </ReactBootStrap.Card.Text>
           <ReactBootStrap.Button variant="primary">Go somewhere</ReactBootStrap.Button>
         </ReactBootStrap.Card.Body>

@@ -8,3 +8,16 @@
   border-radius: 30px;
   border-color: black;
 }
+
+.about-me{
+  text-align: center;
+  text-indent: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: large;
+  padding-top: 30px;
+}
+
+.button-github{
+  padding-left: 50px;
+}
