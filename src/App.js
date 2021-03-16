@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/Navbar';
+import SkillsCard from './components/SkillsCard'
 
 import { Breadcrumb, Button } from 'react-bootstrap'
 
@@ -26,6 +27,7 @@ export default function App() {
         <Switch>
           <Route path="/skills">
             <Skills />
+            <SkillsCard/>
           </Route>
           <Route path="/projects">
             <Projects />
@@ -69,14 +71,14 @@ function Home() {
 }
 
 function Skills() {
-  return <h2>Skills</h2>;
+  return <h1 className="skills-intro">Skills</h1>;
 }
 
 function Projects() {
-  return <h2>Projects</h2>;
+  return <h1>Projects</h1>;
 }
 
 function Experience() {
-  return <h2>Experience</h2>;
+  return <h1>Experience</h1>;
 }
 
