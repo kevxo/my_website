@@ -6,8 +6,14 @@ import {
   Route
 } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Navbar from './components/Navbar';
-import SkillsCard from './components/SkillsCard'
+import Navbar from './components/Navbar/Navbar';
+import SkillsCard from './components/SkillCard/SkillsCard'
+import Carousel from './components/Carousel/Carousel'
+import Carousel2 from './components/Carousel/Carousel2'
+import Carousel3 from './components/Carousel/Carousel3'
+import ProjectCard from './components/ProjectCard/ProjectCard'
+import ProjectCard2 from './components/ProjectCard/ProjectCard2'
+import ProjectCard3 from './components/ProjectCard/ProjectCard3'
 
 import { Breadcrumb, Button } from 'react-bootstrap'
 
@@ -31,6 +37,12 @@ export default function App() {
           </Route>
           <Route path="/projects">
             <Projects />
+            <Carousel />
+            <ProjectCard/>
+            <Carousel2 />
+            <ProjectCard2/>
+            <Carousel3 />
+            <ProjectCard3/>
           </Route>
           <Route path="/experience">
             <Experience />
@@ -75,7 +87,7 @@ function Skills() {
 }
 
 function Projects() {
-  return <h1>Projects</h1>;
+  return <h1 className="projects-intro">Projects</h1>;
 }
 
 function Experience() {
