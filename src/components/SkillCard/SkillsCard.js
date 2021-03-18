@@ -7,8 +7,8 @@ class SkillsCard extends React.Component {
     return (
       <ReactBootStrap.Card className="card">
         <ReactBootStrap.Card.Body>
-          <ReactBootStrap.Card.Title>My Skills</ReactBootStrap.Card.Title>
-          <ReactBootStrap.Card.Text>
+          <ReactBootStrap.Card.Title className="title">My Skills</ReactBootStrap.Card.Title>
+          <ReactBootStrap.Card.Text className="text">
             <ul>
               <li>Ruby</li>
               <li>Rails</li>
@@ -23,8 +23,8 @@ class SkillsCard extends React.Component {
           </ReactBootStrap.Card.Text>
         </ReactBootStrap.Card.Body>
         <ReactBootStrap.Card.Body>
-          <ReactBootStrap.Card.Title>Currently Exploring</ReactBootStrap.Card.Title>
-          <ReactBootStrap.Card.Text>
+          <ReactBootStrap.Card.Title className="title">Currently Exploring</ReactBootStrap.Card.Title>
+          <ReactBootStrap.Card.Text className="text">
             <ul>
               <li>Python</li>
               <li>JavaScript</li>
