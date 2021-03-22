@@ -37,6 +37,7 @@ export default function App() {
         <Switch>
           <Route path="/skills">
             <Skills />
+            <img className="skill-photo" src="../images/technicalskills.png" alt="technical skills"  height="30%" width="30%"/>
             <SkillsCard/>
           </Route>
           <Route path="/projects">

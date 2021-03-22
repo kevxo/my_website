@@ -37,6 +37,13 @@
   padding-left: 50px;
 }
 
+.skill-photo{
+  margin-left: 530px;
+  border-radius: 30px;
+  border-color: black;
+  margin-top: 30px;
+}
+
 .photo{
   margin-left: 565px;
   border-radius: 30px;
