@@ -15,6 +15,9 @@ import ProjectCard from './components/ProjectCard/ProjectCard'
 import ProjectCard2 from './components/ProjectCard/ProjectCard2'
 import ProjectCard3 from './components/ProjectCard/ProjectCard3'
 import AboutCard from './components/AboutCard/AboutCard'
+import TuringCard from './components/ExperienceCard/TuringCard'
+import FordsGarageCard from './components/ExperienceCard/FordsGarageCard'
+import PolloTropicalCard from './components/ExperienceCard/PolloTropicalCard'
 
 import { Breadcrumb, Button } from 'react-bootstrap'
 
@@ -47,6 +50,12 @@ export default function App() {
           </Route>
           <Route path="/experience">
             <Experience />
+            < img className="photo" src="../images/EHdy1GyV.png" alt="Turing" height="20%" width="20%"/>
+            <TuringCard />
+            < img className="fords-photo" src="../images/fordsgarage.jpeg" alt="Fords Garage" height="20%" width="20%"/>
+            <FordsGarageCard />
+            < img className="pollo-photo" src="../images/pollotropical.png" alt="Pollo Tropical" height="20%" width="20%"/>
+            < PolloTropicalCard />
           </Route>
           <Route path="/">
             <Home />
@@ -84,6 +93,6 @@ function Projects() {
 }
 
 function Experience() {
-  return <h1>Experience</h1>;
+  return <h1 className="experience-intro">Experience</h1>;
 }
 
