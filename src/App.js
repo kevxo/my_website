@@ -53,7 +53,7 @@ export default function App() {
             <Experience />
             < img className="photo" src="../images/EHdy1GyV.png" alt="Turing" height="20%" width="20%"/>
             <TuringCard />
-            < img className="fords-photo" src="../images/fordsgarage.jpeg" alt="Fords Garage" height="20%" width="20%"/>
+            < img className="fords-photo" src="../images/fordsgarage.png" alt="Fords Garage" height="20%" width="20%"/>
             <FordsGarageCard />
             < img className="pollo-photo" src="../images/pollotropical.png" alt="Pollo Tropical" height="20%" width="20%"/>
             < PolloTropicalCard />
@@ -73,7 +73,7 @@ function Home() {
     <h1 className="my-intro">
       Welcome To My Website<br/>
       Software Engineer<br/>
-      <img className="my-photo" src='../images/98EABFA3-FBC5-4A09-9A3D-B0D8DB5B26F0_1_105_c.jpeg' alt='myself' width='250' height='250'/><br/>
+      <img className="my-photo" src='../images/98EABFA3-FBC5-4A09-9A3D-B0D8DB5B26F0_1_105_c.png' alt='myself' width='250' height='250'/><br/>
       Kevin David Cuadros<br/>
       <Button href="https://github.com/kevxo" variant="link">{' '}
         <img src="../images/download.png" alt="Github" width="60" height="40"/>
