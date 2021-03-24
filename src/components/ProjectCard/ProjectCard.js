@@ -19,7 +19,7 @@ class ProjectCard extends React.Component {
           <img src="../images/download.png" alt="Github" width="60" height="40"/>
         </ReactBootStrap.Button>
         <ReactBootStrap.Button href="https://packsmart.herokuapp.com/" variant="link">{' '}
-          <img src="../images/heroku_image.jpeg" alt="Heroku" width="60" height="40" />
+          <img src="../images/heroku_image.png" alt="Heroku" width="60" height="40" />
         </ReactBootStrap.Button>
             </p>
           </ReactBootStrap.Card.Text>
