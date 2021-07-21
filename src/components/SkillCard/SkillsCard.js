@@ -1,43 +1,16 @@
 import React from 'react'
-import * as ReactBootStrap from 'react-bootstrap'
-import './skillscard.css'
+import { Card, Container } from 'semantic-ui-react'
 
-class SkillsCard extends React.Component {
-  render() {
-    return (
-      <ReactBootStrap.Card className="card">
-        <ReactBootStrap.Card.Body>
-          <ReactBootStrap.Card.Title className="title">My Skills</ReactBootStrap.Card.Title>
-          <ReactBootStrap.Card.Text className="text">
-            <ul>
-              <li>Ruby</li>
-              <li>Rails</li>
-              <li>ActiveRecord</li>
-              <li>RSpec</li>
-              <li>TDD</li>
-              <li>Restful APIs</li>
-              <li>HTML and CSS experience</li>
-              <li>Travis CI experience</li>
-              <li>Git Workflow</li>
-            </ul>
-          </ReactBootStrap.Card.Text>
-        </ReactBootStrap.Card.Body>
-        <ReactBootStrap.Card.Body>
-          <ReactBootStrap.Card.Title className="title">Currently Exploring</ReactBootStrap.Card.Title>
-          <ReactBootStrap.Card.Text className="text">
-            <ul>
-              <li>Python</li>
-              <li>JavaScript</li>
-              <li>FastAPI</li>
-              <li>React</li>
-              <li>Bootstrap</li>
-              <li>Circle CI</li>
-            </ul>
-          </ReactBootStrap.Card.Text>
-        </ReactBootStrap.Card.Body>
-      </ReactBootStrap.Card>
-    )
-  }
-}
+const SkillsCard = () => (
+  <Container textAlign="justified">
+    <h2 class="text-color">Skills</h2>
+    <Card.Group>
+      <Card fluid color='red' header='Languages/Framworks: Ruby on Rails, Python, JavaScript, SQL, FastApi, HTML, CSS' />
+      <Card fluid color='orange' header='Tools: ActiveRecord, PostgreSQL, RSpec, Git, Minitest, Unittest, GraphQL, Heroku, TravisCI' />
+      <Card fluid color='yellow' header='Methodologies: Git Workflow, Microservices, Agile Development, TDD/BDD' />
+    </Card.Group>
 
-export default SkillsCard;
+  </Container>
+)
+
+export default SkillsCard
