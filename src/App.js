@@ -4,7 +4,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 import AboutMeContainer from "./container/AboutMe";
 import SkillsCard from "./components/SkillCard/SkillsCard"
 import ProjectCard from "./components/ProjectCard/ProjectCard"
-import { Button, Icon, Image, Header, Container} from 'semantic-ui-react'
+import { Container } from 'semantic-ui-react'
 
 
 export default function App() {
