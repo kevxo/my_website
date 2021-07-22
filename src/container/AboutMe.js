@@ -6,7 +6,7 @@ import './AboutMe.css'
 
 const src1 = '../images/98EABFA3-FBC5-4A09-9A3D-B0D8DB5B26F0_1_105_c.png'
 
-const ContainerExampleAlignment = () => (
+const AboutMeContainer = () => (
   <div>
     <Container textAlign='justified'>
       <Image src={src1} size='medium' centered /><br/>
@@ -37,9 +37,12 @@ const ContainerExampleAlignment = () => (
       <Button icon href="https://twitter.com/KevD_9">
         <Icon name="twitter"/>
       </Button>
+      <Button icon href="mailto:kev040798@gmail.com">
+        <Icon name="mail"/>
+      </Button>
       <Divider/>
     </Container>
   </div>
 )
 
-export default ContainerExampleAlignment
+export default AboutMeContainer

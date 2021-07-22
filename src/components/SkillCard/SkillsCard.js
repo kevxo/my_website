@@ -1,5 +1,5 @@
 import React from 'react'
-import { Card, Container } from 'semantic-ui-react'
+import { Card, Container, Divider } from 'semantic-ui-react'
 
 const SkillsCard = () => (
   <Container textAlign="justified">
@@ -9,6 +9,7 @@ const SkillsCard = () => (
       <Card fluid color='orange' header='Tools: ActiveRecord, PostgreSQL, RSpec, Git, Minitest, Unittest, GraphQL, Heroku, TravisCI' />
       <Card fluid color='yellow' header='Methodologies: Git Workflow, Microservices, Agile Development, TDD/BDD' />
     </Card.Group>
+    <Divider />
 
   </Container>
 )

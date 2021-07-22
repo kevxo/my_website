@@ -1,9 +1,10 @@
 import React from "react";
 import './App.css';
 import { BrowserRouter as Router } from "react-router-dom";
-import ContainerExampleAlignment from "./container/AboutMe";
+import AboutMeContainer from "./container/AboutMe";
 import SkillsCard from "./components/SkillCard/SkillsCard"
-import { Button, Icon, Image, Header } from 'semantic-ui-react'
+import ProjectCard from "./components/ProjectCard/ProjectCard"
+import { Button, Icon, Image, Header, Container} from 'semantic-ui-react'
 
 
 export default function App() {
@@ -13,11 +14,27 @@ export default function App() {
 
       <div class="context">
         <h1>Welcome To My Website</h1><br/>
-        <ContainerExampleAlignment/><br/>
+        <AboutMeContainer/><br/>
         <SkillsCard/>
+        <Container>
+        <h2 class="text-color">Projects</h2>
+
+        </Container><br/><br/>
+        <ProjectCard/><br/>
       </div>
         <div class="area" >
-          <ul class="circles">
+        </div >
+
+        <div class="area">
+        </div >
+
+        <div class="area">
+        <ul class="circles">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
             <li></li>
             <li></li>
             <li></li>
@@ -31,6 +48,8 @@ export default function App() {
           </ul>
         </div >
 
+        <div class="area">
+        </div >
         <div class="area">
         </div >
       </div>
